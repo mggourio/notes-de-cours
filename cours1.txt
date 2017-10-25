@@ -1,4 +1,18 @@
 notes de cours de git
 =====================
 
-cours d'aujourd'hui
+cours du 25/10/2017
+
+mkdir dossier
+cd dossier
+créer et éditer un fichier cours1.txt
+git status // cours1.txt est affiché en untracked (non suivi)
+git add cours1.txt
+git status // cours1.txt est affiché en staging area
+git commit -m "Notes de cours"
+git status // aucune modification
+// on a enregistré le premier fichier
+// ajout de notes de cours
+git diff // les lignes enregistrées sont en vert
+git status // cours1.txt a des changement qui ne sont pas en staging area
+
