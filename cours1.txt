@@ -15,4 +15,5 @@ git status // aucune modification
 // ajout de notes de cours
 git diff // les lignes enregistrées sont en vert
 git status // cours1.txt a des changement qui ne sont pas en staging area
-
+git add cours1.txt
+git commit -m "Ajout de notes"
